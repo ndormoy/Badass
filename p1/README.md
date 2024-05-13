@@ -139,3 +139,32 @@ ON regarde si c'est active sur loopback 0 et eth0
 ```int eth0```
 ```ip router isis 1```
 ```do sh isis int``` --> Pour check
+
+-------------
+
+# definitions :
+
+## GNS3 :
+
+GNS3 est un émulateur de réseau qui permet de simuler des réseaux informatiques complexes. Vous devez l'installer et le configurer dans votre machine virtuelle.
+
+
+## BusyBox :
+
+BusyBox ou une solution équivalente. BusyBox est un logiciel qui fournit une multitude d'outils UNIX regroupés dans un seul exécutable
+
+## Zebra / Quagga :
+
+Ces logiciels sont des démons de routage qui permettent de gérer les tables de routage et de configurer des protocoles de routage.
+
+## BGPD :
+
+Le service BGPD (Border Gateway Protocol Daemon) doit être actif et configuré. BGPD est un démon qui implémente le protocole de routage BGP (Border Gateway Protocol), utilisé pour échanger des informations de routage entre les réseaux autonomes.
+
+## OSPDFD :
+
+Le service OSPFD (Open Shortest Path First Daemon) doit être actif et configuré. OSPFD est un démon qui implémente le protocole de routage OSPF (Open Shortest Path First), utilisé pour calculer les routes les plus courtes dans un réseau IP.
+
+## IS-IS :
+
+Intermediate System to Intermediate System (IS-IS) est un protocole de routage utilisé dans les réseaux de télécommunications et de données pour échanger des informations de routage entre les routeurs. Il a été initialement développé par l'ISO (International Organization for Standardization) comme une norme de routage pour les réseaux à commutation de paquets dans le cadre de la norme OSI (Open Systems Interconnection).
